@@ -1,0 +1,11 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Proximity</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#070707;color:#fff;font-family:system-ui,Arial}.wrap{max-width:900px;margin:auto;padding:70px 22px}.logo{font-size:28px;font-weight:800}.card{margin-top:35px;background:#101010;border:1px solid #292929;border-radius:22px;padding:28px}h1{font-size:42px;margin:0 0 8px}.sub{color:#999}form{display:flex;gap:10px;margin-top:25px}.url{flex:1;background:#080808;border:1px solid #333;color:#fff;border-radius:13px;padding:15px;font-size:16px}button{border:0;border-radius:13px;padding:0 22px;background:#fff;color:#000;font-weight:700}small{display:block;color:#777;margin-top:20px}@media(max-width:600px){form{flex-direction:column}button{height:48px}}
+</style></head>
+<body><div class="wrap"><div class="logo">Proximity</div><div class="card">
+<h1>Browse the web.</h1><p class="sub">Enter a public HTTP or HTTPS website.</p>
+<form action="/proxy" method="get"><input class="url" name="url" type="url" placeholder="https://example.com" required><button>Go</button></form>
+<small>Some modern sites may not work because of authentication, WebSockets, WebRTC, anti-bot systems, or their own security policies.</small>
+</div></div></body></html>
